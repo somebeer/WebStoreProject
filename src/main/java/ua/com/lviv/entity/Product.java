@@ -17,12 +17,15 @@ public class Product {
     @ManyToOne(fetch = FetchType.LAZY)
     private User user;
 
-    public Product() {
+    public Product(String name) {
     }
 
     public Product(String productID, String productName) {
         this.productID = productID;
         this.productName = productName;
+    }
+
+    public Product() {
     }
 
     public String getProductID() {

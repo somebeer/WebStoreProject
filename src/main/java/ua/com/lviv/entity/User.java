@@ -23,7 +23,7 @@ public class User {
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "user")
     private List<Product> productList;
 
-    public User() {
+    public User(String name, String secondName, String email, int phone) {
     }
 
     public User(String userID, String name, String secondName, String email, int phone) {
@@ -32,6 +32,9 @@ public class User {
         this.secondName = secondName;
         this.email = email;
         this.phone = phone;
+    }
+
+    public User() {
     }
 
     public String getUserID() {
