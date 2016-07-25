@@ -20,6 +20,7 @@ public class User {
     private String email;
     @Column
     private int phone;
+
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "user")
     private List<Product> productList;
 
@@ -32,6 +33,7 @@ public class User {
         this.secondName = secondName;
         this.email = email;
         this.phone = phone;
+
     }
 
     public User() {
@@ -88,3 +90,4 @@ public class User {
                 '}';
     }
 }
+

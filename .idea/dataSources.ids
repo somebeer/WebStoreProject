@@ -6,10 +6,9 @@
       <identifier-quote-string>`</identifier-quote-string>
     </database-info>
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
-    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6"/>
   </data-source>
   <data-source name="database/Hibernate" uuid="baf04747-b32c-4af2-82ce-ec51e11facf6">
-    <database-info product="MySQL" version="5.7.12-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+    <database-info product="MySQL" version="5.7.13-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
       <extra-name-characters>#@</extra-name-characters>
       <identifier-quote-string>`</identifier-quote-string>
     </database-info>
@@ -18,25 +17,13 @@
       <schema id="1" name="mystore">
         <visible>1</visible>
       </schema>
-      <table id="2" parent="1" name="new_table"/>
-      <column id="3" parent="2" name="idnew_table">
-        <mandatory>1</mandatory>
-        <data-type>int(11)|0</data-type>
-      </column>
-      <column id="4" parent="2" name="new_tablecol">
-        <mandatory>1</mandatory>
-        <data-type>varchar(45)|0</data-type>
-      </column>
-      <column id="5" parent="2" name="new_tablecol1">
-        <mandatory>1</mandatory>
-        <data-type>varchar(45)|0</data-type>
-      </column>
-      <key id="6" parent="2" name="PRIMARY">
-        <columns>idnew_table
-new_tablecol
-new_tablecol1</columns>
-        <primary>1</primary>
-      </key>
+      <schema id="2" name="information_schema"/>
+      <schema id="3" name="logos"/>
+      <schema id="4" name="mysql"/>
+      <schema id="5" name="performance_schema"/>
+      <schema id="6" name="sakila"/>
+      <schema id="7" name="sys"/>
+      <schema id="8" name="world"/>
     </database-model>
   </data-source>
 </component>

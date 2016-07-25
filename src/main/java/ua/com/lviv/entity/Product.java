@@ -13,7 +13,7 @@ public class Product {
     private String productID;
     @Column
     private String productName;
-    @Column
+
     @ManyToOne(fetch = FetchType.LAZY)
     private User user;
 

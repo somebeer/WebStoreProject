@@ -21,4 +21,8 @@ public class UserServiceImpl implements UserService{
         User user = new User(name, secondName, email, phone);
         userDao.add(user);
     }
+
+    public void add(User user) {
+
+    }
 }
