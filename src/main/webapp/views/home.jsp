@@ -19,7 +19,7 @@
     <title>Home</title>
 </head>
 <body>
-</head>
+
 
 <div class="cover">
     <div class="navbar navbar-default">
@@ -42,7 +42,7 @@
                         <a href="/registration">Реєстрація</a>
                     </li>
                     <li class="active">
-                        <a href="#">Контакти</a>
+                        <a href="http://www.linkedin.com">Контакти</a>
                     </li>
                 </ul>
             </div>
