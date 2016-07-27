@@ -53,7 +53,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h1>Six long month of JAVA</h1>
-                <p>маленький і корявий проджект, котрий імітує роботу BestSalesStoreInTheUniverse :) </p>
+                <p>маленький і корявий проджект :) </p>
                 <br>
                 <br>
                 <a class="btn btn-lg btn-danger" href="/loginpage">Don't Touch Me!</a>

@@ -26,7 +26,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <form role="form">
+                <form role="form" method="post" action="/registration">
                     <div class="form-group">
                         <label class="control-label" for="exampleInputEmail1">Ім'я</label>
                         <input class="form-control" id="exmplName"
@@ -40,7 +40,7 @@
                 </form>
                 <div class="row">
                     <div class="col-md-12">
-                        <form role="form">
+                        <form role="form" method="post" action="/registration">
                             <div class="form-group">
                                 <label class="control-label" for="exampleInputEmail1">Email</label>
                                 <input class="form-control" id="exmplEmail1"
@@ -52,7 +52,7 @@
                                        placeholder="Номер телефону" type="tel">
                             </div>
                         </form>
-                        <form role="form">
+                        <form role="form" method="post" action="/registration">
                             <div class="form-group">
                                 <label class="control-label" for="exampleInputEmail1">Пароль</label>
                                 <input class="form-control" id="exampleInputEmail1"
@@ -63,7 +63,7 @@
                                 <input class="form-control" id="exampleInputPassword1"
                                        placeholder="Введіть пароль ще раз" type="password">
                             </div>
-                            <a class="btn btn-primary">Зареєструватися</a>
+                            <a class="btn btn-primary" methods="post">Зареєструватися</a>
                             <a class="btn btn-primary btn-xs" href="/loginpage">Увійти</a>
                             <a class="btn btn-primary btn-xs" href="/home">На головну</a>
                         </form>
